@@ -13,6 +13,13 @@ public class HomePage {
     private By newAccount = By.xpath("//a[contains(text(),'New Account')]");
 
     private By deposit = By.xpath("//a[contains(text(),'Deposit')]");
+
+    private By widthDraw = By.xpath("//a[contains(text(),'Withdrawal')]");
+
+    private By fundTransfer = By.xpath("//a[contains(text(),'Fund Transfer')]");
+
+    private By statementForm = By.xpath("//a[contains(text(),'Customised Statement')]");
+
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
@@ -34,13 +41,28 @@ public class HomePage {
         return new AddCustomerPage(driver);
     }
 
-    public AddAccountPage clickAddAccount(){
+    public AddAccountPage clickAddAccount() {
         driver.findElement(newAccount).click();
         return new AddAccountPage(driver);
     }
 
-    public Deposit clickDeposit(){
+    public Deposit clickDeposit() {
         driver.findElement(deposit).click();
         return new Deposit(driver);
+    }
+
+    public WidthDraw clickWidthDraw() {
+        driver.findElement(widthDraw).click();
+        return new WidthDraw(driver);
+    }
+
+    public FundTransfer clickFundTransfer() {
+        driver.findElement(fundTransfer).click();
+        return new FundTransfer(driver);
+    }
+
+    public StatementForm clickStatementForm(){
+        driver.findElement(statementForm).click();
+        return new StatementForm(driver);
     }
 }
