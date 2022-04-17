@@ -10,6 +10,8 @@ public class LoginPage {
     private By passwordTxt = By.xpath("//input[@name='password']");
     private By loginBtn = By.xpath("//input[@name='btnLogin']");
 
+    private By resetBtn = By.xpath("//input[@name='btnReset']");
+
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -22,9 +24,16 @@ public class LoginPage {
         driver.findElement(passwordTxt).sendKeys(password);
     }
 
-    public HomePage login(){
+    public String getUsername(){
+        return driver.findElement(usernameTxt).getAttribute("value");
+    }
+    public HomePage login() {
         WebElement buttonSubmitElement = driver.findElement(loginBtn);
         buttonSubmitElement.click();
         return new HomePage(driver);
+    }
+
+    public void reset(){
+        driver.findElement(resetBtn).click();
     }
 }

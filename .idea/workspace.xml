@@ -5,29 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c156c77b-8dd4-484b-9987-e1378ca52291" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/AddCustomerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LogOutTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/AccCreateMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/AddAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/Deposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/DepositSubmit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/customer.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AccountTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DepositTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/AddCustomerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/AddCustomerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LogOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LogOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +85,8 @@
       <recent name="D:\Downloads\KiemThuPhanMem\Java\baiTapNhom\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CustomerTest.newCustomer">
-    <configuration name="CustomerTest.newCustomer" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.DepositTests.reset">
+    <configuration name="AccountTests.doAddAccount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -102,7 +99,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CustomerTest.newCustomer&quot;" />
+            <option value="&quot;AccountTests.doAddAccount&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -112,7 +109,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CustomerTest.newCustomerFail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AccountTests.doReset" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +122,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CustomerTest.newCustomerFail&quot;" />
+            <option value="&quot;AccountTests.doReset&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,7 +132,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LogOutTest.testLogOut" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DepositTests.doDeposit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +145,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;LogOutTest.testLogOut&quot;" />
+            <option value="&quot;DepositTests.doDeposit&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -158,7 +155,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DepositTests.reset" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +168,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;LoginTests&quot;" />
+            <option value="&quot;DepositTests.reset&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CustomerTest.newCustomer" />
-        <item itemvalue="Gradle.CustomerTest.newCustomerFail" />
+        <item itemvalue="Gradle.DepositTests.reset" />
+        <item itemvalue="Gradle.DepositTests.doDeposit" />
+        <item itemvalue="Gradle.AccountTests.doReset" />
+        <item itemvalue="Gradle.AccountTests.doAddAccount" />
         <item itemvalue="Gradle.Tests in 'baiTapNhom.test'" />
-        <item itemvalue="Gradle.LogOutTest.testLogOut" />
-        <item itemvalue="Gradle.LoginTests" />
       </list>
     </recent_temporary>
   </component>

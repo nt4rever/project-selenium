@@ -7,7 +7,7 @@ import page.HomePage;
 public class LogOutTest extends BaseTest{
     @Test
     @DisplayName("TC03-logout-successfully")
-    public void testLogOut(){
+    public void testLogOut() throws InterruptedException {
         loginPage.setUsername("mngr399660");
         loginPage.setPassword("tydEbeq");
         HomePage homePage = loginPage.login();

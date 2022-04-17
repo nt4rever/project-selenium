@@ -21,6 +21,8 @@ public class AddCustomerPage {
 
     private By submit = By.xpath("//input[@name='sub']");
 
+    private By resetBtn = By.xpath("//input[@name='res']");
+
     public AddCustomerPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -70,5 +72,13 @@ public class AddCustomerPage {
     public RegisterPage clickSub(){
         driver.findElement(submit).click();
         return new RegisterPage(driver);
+    }
+
+    public String getName(){
+        return driver.findElement(name).getAttribute("value");
+    }
+
+    public void reset(){
+        driver.findElement(resetBtn).click();
     }
 }

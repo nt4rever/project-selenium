@@ -5,6 +5,7 @@ import org.apache.poi.ss.usermodel.*;
 import java.io.File;
 import java.io.IOException;
 
+
 public class Utils {
     static String[][] getTestData() throws IOException {
         String[][] data = null;
@@ -23,5 +24,17 @@ public class Utils {
 
         book.close();
         return data;
+    }
+
+
+    static String[][] getTestDataDay5() {
+        String[][] result = {
+                {"mngr193327","AsYvyhU","t"},
+                {"invalid","AsYvyhU","f"},
+                {"mngr193327","invalid","f"},
+                {"invalid","invalid","f"}
+        };
+
+        return result;
     }
 }

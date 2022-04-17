@@ -1,0 +1,5 @@
+﻿mngr399660,tydEbeq,pass
+fakeuser123,abcd1234,fail
+"",abcd1234,fail
+"","",fail
+fakeuser123,"",fail
